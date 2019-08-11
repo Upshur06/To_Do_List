@@ -4,16 +4,30 @@
 <head>
   <title>To Do List</title>
   <link rel="stylesheet" type="text/css" href="to_do.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
 
  <body>
+
+<div id="instructions">
    <h1> Work To-Do List:</h1>
 
    <p>Enter text in the input field to add items to your list (max 28 characters).</p>
    <p>Click the item to mark it compete.</p>
     <p>Click the "x" to remove the item from your list.</p>
+</div>
+
+<div id="input">
+      <input type="text" placeholder="New item....">
+      <!-- <button><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></button> -->
+      <button type="button" class="btn btn-default" aria-label="Left Align">
+        <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+      </button>
+</div>
+
 
    <script src="to_do.js"></script>
+
  </body>
 </html>
