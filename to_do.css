@@ -6,3 +6,10 @@
 #input{
   margin-left: 10px;
 }
+
+#listBox{
+  border: 3px solid blue;
+  width: 95%;
+  height: 400px;
+  margin-left: 20px;
+}
