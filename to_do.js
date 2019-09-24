@@ -24,10 +24,15 @@ function printList(){
     this.style.color = "green";
     this.style.textDecoration = "line-through"
   });
+  var listUndo = newDiv.addEventListener("dblclick", function(){
+    this.style.color = "black";
+    this.style.textDecoration = "none"
+  });
     var listRemove = btn.addEventListener("click", function(){
       newDiv.style.display = "none";
       })
   listComplete;
+  listUndo
   listRemove;
   }
 
