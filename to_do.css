@@ -1,15 +1,28 @@
+
+
 #instructions{
+  border: 3px solid;
   margin-left: 10px;
+  text-align: center;
 }
 
 
-#input{
-  margin-left: 10px;
+#info{
+  width: 40%;
+  height: 34px;
+  margin-left: 30%;
+  text-indent: 10px;
 }
 
-#listBox{
-  border: 3px solid blue;
-  width: 95%;
-  height: 400px;
-  margin-left: 20px;
+
+
+.textList{
+  border: 3px solid grey;
+  margin: 0% 18% 2% 13%;
+  padding: 11px 4px 0px 2px;
+  text-align: center;
+  width: 74%;
+  height: 60px;
+  font-size: 17px;
+  letter-spacing: 2px;
 }
