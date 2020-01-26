@@ -10,6 +10,7 @@ function printList(){
 
   var btn = document.createElement("button");
   btn.className ="glyphicon glyphicon-remove"
+  
   newDiv.appendChild(btn);
 
   var listComplete = newDiv.addEventListener("click", function(){
